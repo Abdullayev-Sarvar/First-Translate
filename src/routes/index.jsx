@@ -8,13 +8,13 @@ const RoutesController = () => {
   return useRoutes([
     {
       path: '/',
-      element: <Suspense fallback={<div>Loading...</div>}>
+      element: <Suspense fallback={<div className='w-full h-screen flex justify-center items-center'><div className="loader"></div></div>}>
         <Home />
       </Suspense>
     },
     {
       path: '/design',
-      element: <Suspense fallback={<div>Loading...</div>}>
+      element: <Suspense fallback={<div className='w-full h-screen flex justify-center items-center'><div className="loader"></div></div>}>
         <Design />
       </Suspense>
     }
