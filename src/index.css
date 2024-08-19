@@ -22,6 +22,17 @@ ul, ol{
   list-style: none;
 }
 
+ul > button:hover{
+  transition: all 0.7s ease;
+  color: #D05270;
+  border-bottom: 1px solid #D05270
+}
+
+ul > button:focus{
+  color: #D05270;
+  border-bottom: 1px solid #D05270
+}
+
 li{
   font-size: 14px;
   color: #424242;
@@ -31,6 +42,17 @@ li{
 
 li:hover{
   color: #5A47AB;
+}
+
+.navLink:hover{
+  transition: all 0.7s ease;
+  color: #D05270;
+  border-bottom: 1px solid #D05270
+}
+
+.navLink:focus{
+  color: #D05270;
+  border-bottom: 1px solid #D05270
 }
 
 button{

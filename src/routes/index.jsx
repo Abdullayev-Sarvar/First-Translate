@@ -13,7 +13,7 @@ const RoutesController = () => {
       </Suspense>
     },
     {
-      path: '/about',
+      path: '/design',
       element: <Suspense fallback={<div>Loading...</div>}>
         <Design />
       </Suspense>
